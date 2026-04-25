@@ -1,0 +1,5 @@
+ctenv/ 
+*.log 
+__pycache__/ 
+*.csv 
+*.json 
