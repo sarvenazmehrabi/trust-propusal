@@ -1,5 +1,12 @@
+# Ignore Python Environment
 ctenv/ 
 *.log 
 __pycache__/ 
 *.csv 
 *.json 
+
+# Ignore Data and Logs
+data/
+tokens/
+*.log
+*.pkl
