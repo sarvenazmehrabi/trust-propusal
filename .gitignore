@@ -5,8 +5,27 @@ __pycache__/
 *.csv 
 *.json 
 
-# Ignore Data and Logs
+# Ignore Heavy Outputs and Models
+*.log 
+*.csv 
+*.json 
+*.pkl
+*.npy
+*.model
+*.safetensors
+*.png
+data/
+tokens/
+models/
 data/
 tokens/
 *.log
 *.pkl
+data/processed/*.csv
+data/raw/*.csv
+models/*.npy
+models/*.safetensors
+src/synthetic_data_generator.py
+*png
+*.model
+models/
